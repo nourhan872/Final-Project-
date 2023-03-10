@@ -10,17 +10,9 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
 
         @viteReactRefresh
-        @vite(['resources/js/components/app.css' , 'resources/js/app.jsx','resources/js/login.jsx'
-        ,'resources/js/navbar.jsx','resources/js/register.jsx'])
+        @vite(['resources/css/app.css' , 'resources/js/app.jsx'])
     </head>
     <body >
-    <div id="navbar"></div>
-
        <div id="app"></div>
-       <div id="login"></div>  
-
-       
-       
-
     </body>
 </html>
